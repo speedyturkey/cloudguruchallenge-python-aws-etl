@@ -56,7 +56,7 @@ def transform(covid_data: List[Dict]) -> List[Dict]:
     return transformed
 
 
-def scan_existing_data(table):
+def scan_existing_data(table) -> List[Dict]:
     """
     Given a <dynamodb.Table> object, scan and return all items.
     """
