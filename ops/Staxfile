@@ -1,0 +1,4 @@
+require_relative 'lib/stack'
+
+stack :dynamo
+stack :etl, import: :dynamo

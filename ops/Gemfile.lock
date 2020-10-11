@@ -1,0 +1,186 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    activesupport (6.0.3.2)
+      concurrent-ruby (~> 1.0, >= 1.0.2)
+      i18n (>= 0.7, < 2)
+      minitest (~> 5.1)
+      tzinfo (~> 1.1)
+      zeitwerk (~> 2.2, >= 2.2.2)
+    addressable (2.7.0)
+      public_suffix (>= 2.0.2, < 5.0)
+    aws-eventstream (1.1.0)
+    aws-partitions (1.353.0)
+    aws-sdk-acm (1.34.0)
+      aws-sdk-core (~> 3, >= 3.99.0)
+      aws-sigv4 (~> 1.1)
+    aws-sdk-apigateway (1.48.0)
+      aws-sdk-core (~> 3, >= 3.99.0)
+      aws-sigv4 (~> 1.1)
+    aws-sdk-autoscaling (1.44.0)
+      aws-sdk-core (~> 3, >= 3.99.0)
+      aws-sigv4 (~> 1.1)
+    aws-sdk-cloudformation (1.41.0)
+      aws-sdk-core (~> 3, >= 3.99.0)
+      aws-sigv4 (~> 1.1)
+    aws-sdk-cloudfront (1.36.0)
+      aws-sdk-core (~> 3, >= 3.99.0)
+      aws-sigv4 (~> 1.1)
+    aws-sdk-cloudwatchlogs (1.34.0)
+      aws-sdk-core (~> 3, >= 3.99.0)
+      aws-sigv4 (~> 1.1)
+    aws-sdk-codebuild (1.58.0)
+      aws-sdk-core (~> 3, >= 3.99.0)
+      aws-sigv4 (~> 1.1)
+    aws-sdk-codepipeline (1.34.0)
+      aws-sdk-core (~> 3, >= 3.99.0)
+      aws-sigv4 (~> 1.1)
+    aws-sdk-core (3.104.3)
+      aws-eventstream (~> 1, >= 1.0.2)
+      aws-partitions (~> 1, >= 1.239.0)
+      aws-sigv4 (~> 1.1)
+      jmespath (~> 1.0)
+    aws-sdk-databasemigrationservice (1.39.0)
+      aws-sdk-core (~> 3, >= 3.99.0)
+      aws-sigv4 (~> 1.1)
+    aws-sdk-dynamodb (1.51.0)
+      aws-sdk-core (~> 3, >= 3.99.0)
+      aws-sigv4 (~> 1.1)
+    aws-sdk-ec2 (1.183.0)
+      aws-sdk-core (~> 3, >= 3.99.0)
+      aws-sigv4 (~> 1.1)
+    aws-sdk-ecr (1.35.0)
+      aws-sdk-core (~> 3, >= 3.99.0)
+      aws-sigv4 (~> 1.1)
+    aws-sdk-ecs (1.67.0)
+      aws-sdk-core (~> 3, >= 3.99.0)
+      aws-sigv4 (~> 1.1)
+    aws-sdk-elasticloadbalancing (1.25.0)
+      aws-sdk-core (~> 3, >= 3.99.0)
+      aws-sigv4 (~> 1.1)
+    aws-sdk-elasticloadbalancingv2 (1.47.0)
+      aws-sdk-core (~> 3, >= 3.99.0)
+      aws-sigv4 (~> 1.1)
+    aws-sdk-emr (1.34.0)
+      aws-sdk-core (~> 3, >= 3.99.0)
+      aws-sigv4 (~> 1.1)
+    aws-sdk-firehose (1.32.0)
+      aws-sdk-core (~> 3, >= 3.99.0)
+      aws-sigv4 (~> 1.1)
+    aws-sdk-iam (1.43.0)
+      aws-sdk-core (~> 3, >= 3.99.0)
+      aws-sigv4 (~> 1.1)
+    aws-sdk-kms (1.36.0)
+      aws-sdk-core (~> 3, >= 3.99.0)
+      aws-sigv4 (~> 1.1)
+    aws-sdk-lambda (1.46.0)
+      aws-sdk-core (~> 3, >= 3.99.0)
+      aws-sigv4 (~> 1.1)
+    aws-sdk-rds (1.95.0)
+      aws-sdk-core (~> 3, >= 3.99.0)
+      aws-sigv4 (~> 1.1)
+    aws-sdk-route53 (1.40.0)
+      aws-sdk-core (~> 3, >= 3.99.0)
+      aws-sigv4 (~> 1.1)
+    aws-sdk-s3 (1.76.0)
+      aws-sdk-core (~> 3, >= 3.104.1)
+      aws-sdk-kms (~> 1)
+      aws-sigv4 (~> 1.1)
+    aws-sdk-secretsmanager (1.40.0)
+      aws-sdk-core (~> 3, >= 3.99.0)
+      aws-sigv4 (~> 1.1)
+    aws-sdk-sqs (1.30.0)
+      aws-sdk-core (~> 3, >= 3.99.0)
+      aws-sigv4 (~> 1.1)
+    aws-sdk-ssm (1.86.0)
+      aws-sdk-core (~> 3, >= 3.99.0)
+      aws-sigv4 (~> 1.1)
+    aws-sigv4 (1.2.1)
+      aws-eventstream (~> 1, >= 1.0.2)
+    cfer (0.8.0)
+      activesupport (>= 3)
+      aws-sdk-cloudformation (~> 1)
+      aws-sdk-s3 (~> 1)
+      cri (~> 2.7)
+      docile (~> 1.1.5)
+      git (~> 1.3)
+      highline (~> 1.7)
+      preconditions (~> 0.3.0)
+      rainbow (~> 2.2)
+      semantic (~> 1.4)
+      table_print (~> 1.5)
+    concurrent-ruby (1.1.7)
+    cri (2.15.10)
+    docile (1.1.5)
+    faraday (1.0.1)
+      multipart-post (>= 1.2, < 3)
+    git (1.7.0)
+      rchardet (~> 1.8)
+    git_clone_url (2.0.0)
+      uri-ssh_git (>= 2.0)
+    highline (1.7.10)
+    i18n (1.8.5)
+      concurrent-ruby (~> 1.0)
+    jmespath (1.4.0)
+    minitest (5.14.1)
+    multipart-post (2.1.1)
+    octokit (4.18.0)
+      faraday (>= 0.9)
+      sawyer (~> 0.8.0, >= 0.5.3)
+    preconditions (0.3.0)
+    public_suffix (4.0.6)
+    rainbow (2.2.2)
+      rake
+    rake (13.0.1)
+    rchardet (1.8.0)
+    sawyer (0.8.2)
+      addressable (>= 2.3.5)
+      faraday (> 0.8, < 2.0)
+    semantic (1.6.1)
+    stax (0.1.3)
+      aws-sdk-acm
+      aws-sdk-apigateway
+      aws-sdk-autoscaling
+      aws-sdk-cloudformation
+      aws-sdk-cloudfront
+      aws-sdk-cloudwatchlogs
+      aws-sdk-codebuild
+      aws-sdk-codepipeline
+      aws-sdk-databasemigrationservice
+      aws-sdk-dynamodb
+      aws-sdk-ec2
+      aws-sdk-ecr
+      aws-sdk-ecs
+      aws-sdk-elasticloadbalancing
+      aws-sdk-elasticloadbalancingv2
+      aws-sdk-emr
+      aws-sdk-firehose
+      aws-sdk-iam
+      aws-sdk-kms
+      aws-sdk-lambda
+      aws-sdk-rds
+      aws-sdk-route53
+      aws-sdk-s3
+      aws-sdk-secretsmanager
+      aws-sdk-sqs
+      aws-sdk-ssm
+      cfer (>= 0.8.0)
+      git_clone_url
+      octokit
+      thor
+    table_print (1.5.7)
+    thor (1.0.1)
+    thread_safe (0.3.6)
+    tzinfo (1.2.7)
+      thread_safe (~> 0.1)
+    uri-ssh_git (2.0.0)
+    zeitwerk (2.4.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  stax (>= 0.1.1)
+
+BUNDLED WITH
+   2.1.4
