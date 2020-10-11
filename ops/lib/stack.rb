@@ -8,7 +8,7 @@ module Stax
     no_commands do
 
       def ssm_environment
-        @_ssm_environment ||= (Git.branch == 'master') ? 'production' : 'dev'
+        @_ssm_environment ||= (Git.branch == 'main') ? 'production' : 'dev'
       end
 
     end
